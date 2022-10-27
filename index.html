@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>video</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 1em;
+      font: 1em /1.4 Arial, sans-serif;
+    }
+    video {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Video embed</h1>
+
+  <video controls width="320" height="240">
+    <source src="media/video.webm" type="video/webm">
+    <source src="media/video.mp4" type="video/mp4">
+    <track kind="subtitles" src="media/subtitles_en.vtt" srclang="en-US" label="en-US" />
+    <p>お使いのブラウザはこのビデオに対応していません。こちらは代わりの<a href="http://" target="_blank">動画へのリンク</a>です。</p>
+  </video>
+</body>
+</html>
